@@ -1,0 +1,46 @@
+@import 'core/core.scss';
+body {
+  margin: 0;
+}
+.header {
+  @include full;
+  height: 300px;
+  background: lightblue;
+}
+.container {
+  @include container(60em);
+  background: lightcoral;
+}
+.test {
+  text-align: center;
+  background: lightgrey;
+  @include span(8);
+}
+
+.thing1 {
+  text-align: center;
+  height: 20px;
+  background: lightgrey;
+  @include span(16);
+  @include desktop {
+    @include span(5.33);
+  }
+}
+.thing2 {
+  text-align: center;
+  height: 20px;
+  background: lightgrey;
+  @include span(8);
+  @include desktop {
+    @include span(5.33);
+  }
+}
+.thing3 {
+  text-align: center;
+  height: 20px;
+  background: lightgrey;
+  @include span(8);
+  @include desktop {
+    @include span(5.33);
+  }
+}

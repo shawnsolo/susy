@@ -1,0 +1,74 @@
+body {
+  margin: 0; }
+
+.header {
+  clear: both;
+  width: 98.75%;
+  float: left;
+  margin-left: 0.625%;
+  margin-right: 0.625%;
+  height: 300px;
+  background: lightblue; }
+
+.container {
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+  background: lightcoral; }
+  .container:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+.test {
+  text-align: center;
+  background: lightgrey;
+  width: 48.75%;
+  float: left;
+  margin-left: 0.625%;
+  margin-right: 0.625%; }
+
+.thing1 {
+  text-align: center;
+  height: 20px;
+  background: lightgrey;
+  width: 98.75%;
+  float: left;
+  margin-left: 0.625%;
+  margin-right: 0.625%; }
+  @media (min-width: 1024px) {
+    .thing1 {
+      width: 32.0625%;
+      float: left;
+      margin-left: 0.625%;
+      margin-right: 0.625%; } }
+
+.thing2 {
+  text-align: center;
+  height: 20px;
+  background: lightgrey;
+  width: 48.75%;
+  float: left;
+  margin-left: 0.625%;
+  margin-right: 0.625%; }
+  @media (min-width: 1024px) {
+    .thing2 {
+      width: 32.0625%;
+      float: left;
+      margin-left: 0.625%;
+      margin-right: 0.625%; } }
+
+.thing3 {
+  text-align: center;
+  height: 20px;
+  background: lightgrey;
+  width: 48.75%;
+  float: left;
+  margin-left: 0.625%;
+  margin-right: 0.625%; }
+  @media (min-width: 1024px) {
+    .thing3 {
+      width: 32.0625%;
+      float: left;
+      margin-left: 0.625%;
+      margin-right: 0.625%; } }
