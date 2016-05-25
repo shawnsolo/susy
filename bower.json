@@ -1,0 +1,17 @@
+{
+  "name": "simpleApp",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Shawn <schlosser.shawn@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
